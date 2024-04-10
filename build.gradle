@@ -8,5 +8,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'commons-cli:commons-cli:1.6.0' // Replace with your library
+    // implementation 'commons-cli:commons-cli:1.6.0' 
+    implementation files('lib/commons-cli-1.6.0.jar')
 }
